@@ -15,194 +15,196 @@
   <div class="author">Ставничук Н.С., группа ИДМ-25-06, МГТУ «СТАНКИН»</div>
 </header>
 
-<nav class="toc" id="toc">
-  <h2>Содержание</h2>
-  <ol>
-    <li><a href="#sec1">Введение: интернет на перепутье</a></li>
-    <li><a href="#sec2">Цифровая экономика и роль семантики</a></li>
-    <li><a href="#sec3">От Web 2.0 к Web 3.0</a></li>
-    <li><a href="#sec4">Суть Semantic Web</a></li>
-    <li><a href="#sec5">Технологические компоненты</a></li>
-    <li><a href="#sec6">Практические применения</a></li>
-    <li><a href="#sec7">Semantic Web и безопасность</a></li>
-    <li><a href="#sec8">Проблемы и критика</a></li>
-    <li><a href="#sec9">Будущее: ИИ vs онтологии?</a></li>
-    <li><a href="#conclusion">Выводы</a></li>
-    <li><a href="#references">Источники и ссылки</a></li>
-  </ol>
-</nav>
+<div class="page-container">
+  <nav class="toc" id="toc">
+    <h2>Содержание</h2>
+    <ol>
+      <li><a href="#sec1">Введение: интернет на перепутье</a></li>
+      <li><a href="#sec2">Цифровая экономика и роль семантики</a></li>
+      <li><a href="#sec3">От Web 2.0 к Web 3.0</a></li>
+      <li><a href="#sec4">Суть Semantic Web</a></li>
+      <li><a href="#sec5">Технологические компоненты</a></li>
+      <li><a href="#sec6">Практические применения</a></li>
+      <li><a href="#sec7">Semantic Web и безопасность</a></li>
+      <li><a href="#sec8">Проблемы и критика</a></li>
+      <li><a href="#sec9">Будущее: ИИ vs онтологии?</a></li>
+      <li><a href="#conclusion">Выводы</a></li>
+      <li><a href="#references">Источники и ссылки</a></li>
+    </ol>
+  </nav>
 
-<main class="content">
+  <main class="content">
 
-<section id="sec1">
-  <h2>1. Введение: интернет на перепутье</h2>
-  <p>Сегодня более <strong>67% населения Земли</strong> использует интернет ежедневно. Каждый человек оставляет цифровой след около <strong>1,7 ГБ в день</strong> — от поисковых запросов до медицинских записей и умных часов. Но большая часть этой информации остаётся «немой»: машины могут хранить и передавать её, но не понимают смысла.</p>
+    <section id="sec1">
+      <h2>1. Введение: интернет на перепутье</h2>
+      <p>Сегодня более <strong>67% населения Земли</strong> использует интернет ежедневно. Каждый человек оставляет цифровой след около <strong>1,7 ГБ в день</strong> — от поисковых запросов до медицинских записей и умных часов. Но большая часть этой информации остаётся «немой»: машины могут хранить и передавать её, но не понимают смысла.</p>
 
-  <figure>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Web_3.0_%26_Semantic_Web.svg/1200px-Web_3.0_%26_Semantic_Web.svg.png" alt="Эволюция интернета: от Web 1.0 к Web 3.0" loading="lazy">
-    <figcaption>Эволюция интернета: от статических страниц к машинно-понятным данным (Источник: Wikimedia Commons)</figcaption>
-  </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Web_3.0_%26_Semantic_Web.svg/1200px-Web_3.0_%26_Semantic_Web.svg.png" alt="Эволюция интернета: от Web 1.0 к Web 3.0" loading="lazy">
+        <figcaption>Эволюция интернета: от статических страниц к машинно-понятным данным (Источник: Wikimedia Commons)</figcaption>
+      </figure>
 
-  <p>Именно эту проблему призвана решить <strong>Семантическая паутина</strong> (Semantic Web) — концепция, предложенная <strong>Тимом Бернерсом-Ли</strong> в начале 2000-х. Это не просто «новая версия HTML», а фундаментальный сдвиг: интернет становится не сетью документов, а <strong>сетью знаний</strong>.</p>
+      <p>Именно эту проблему призвана решить <strong>Семантическая паутина</strong> (Semantic Web) — концепция, предложенная <strong>Тимом Бернерсом-Ли</strong> в начале 2000-х. Это не просто «новая версия HTML», а фундаментальный сдвиг: интернет становится не сетью документов, а <strong>сетью знаний</strong>.</p>
 
-  <blockquote>
-    «Семантическая паутина — это не фантазия. Это необходимый следующий шаг, чтобы данные перестали быть «пленниками» отдельных приложений».<br>
-    — Тим Бернерс-Ли, W3C, 2001
-  </blockquote>
-</section>
+      <blockquote>
+        «Семантическая паутина — это не фантазия. Это необходимый следующий шаг, чтобы данные перестали быть «пленниками» отдельных приложений».<br>
+        — Тим Бернерс-Ли, W3C, 2001
+      </blockquote>
+    </section>
 
-<section id="sec2">
-  <h2>2. Цифровая экономика и роль семантики</h2>
-  <p>Цифровая экономика уже составляет значительную часть мирового ВВП. По оценкам McKinsey (2024), к 2030 году она может достичь <strong>30%</strong>. Но её устойчивость зависит от качества данных.</p>
+    <section id="sec2">
+      <h2>2. Цифровая экономика и роль семантики</h2>
+      <p>Цифровая экономика уже составляет значительную часть мирового ВВП. По оценкам McKinsey (2024), к 2030 году она может достичь <strong>30%</strong>. Но её устойчивость зависит от качества данных.</p>
 
-  <p>Примеры, где семантика критична:</p>
-  <ul>
-    <li><strong>Цифровые двойники городов</strong> — моделируют климатические риски, требуя точных связей между объектами («река → уровень воды → улица → риск затопления»).</li>
-    <li><strong>Цепочки поставок лекарств</strong> — блокчейн + RDF позволяют отслеживать происхождение каждой таблетки, подтверждая подлинность.</li>
-  </ul>
+      <p>Примеры, где семантика критична:</p>
+      <ul>
+        <li><strong>Цифровые двойники городов</strong> — моделируют климатические риски, требуя точных связей между объектами («река → уровень воды → улица → риск затопления»).</li>
+        <li><strong>Цепочки поставок лекарств</strong> — блокчейн + RDF позволяют отслеживать происхождение каждой таблетки, подтверждая подлинность.</li>
+      </ul>
 
-  <figure>
-    <img src="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20economic%20potential%20of%20web3/mckinsey-web3-value-pools.png" alt="Рынки Web3 по оценке McKinsey" loading="lazy">
-    <figcaption>Потенциальные рынки Web3 к 2030 году (McKinsey, 2024)</figcaption>
-  </figure>
-</section>
+      <figure>
+        <img src="https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20economic%20potential%20of%20web3/mckinsey-web3-value-pools.png" alt="Рынки Web3 по оценке McKinsey" loading="lazy">
+        <figcaption>Потенциальные рынки Web3 к 2030 году (McKinsey, 2024)</figcaption>
+      </figure>
+    </section>
 
-<section id="sec3">
-  <h2>3. От Web 2.0 к Web 3.0</h2>
-  <p>Web 2.0 — эпоха социальных сетей, где пользователи создают контент, но платформы владеют им. Web 3.0 стремится вернуть контроль пользователям — и семантика здесь ключевая.</p>
+    <section id="sec3">
+      <h2>3. От Web 2.0 к Web 3.0</h2>
+      <p>Web 2.0 — эпоха социальных сетей, где пользователи создают контент, но платформы владеют им. Web 3.0 стремится вернуть контроль пользователям — и семантика здесь ключевая.</p>
 
-  <table class="comparison">
-    <thead>
-      <tr><th>Параметр</th><th>Web 2.0</th><th>Web 3.0</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Архитектура</td><td>Централизованная</td><td>Децентрализованная</td></tr>
-      <tr><td>Данные</td><td>Неинтерпретируемые</td><td>Машинно-понятные (RDF, OWL)</td></tr>
-      <tr><td>Идентичность</td><td>«Войти через Google»</td><td>Самосуверенная (DIDs)</td></tr>
-      <tr><td>Хранение</td><td>Dropbox, AWS S3</td><td>IPFS, Filecoin</td></tr>
-    </tbody>
-  </table>
+      <table class="comparison">
+        <thead>
+          <tr><th>Параметр</th><th>Web 2.0</th><th>Web 3.0</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Архитектура</td><td>Централизованная</td><td>Децентрализованная</td></tr>
+          <tr><td>Данные</td><td>Неинтерпретируемые</td><td>Машинно-понятные (RDF, OWL)</td></tr>
+          <tr><td>Идентичность</td><td>«Войти через Google»</td><td>Самосуверенная (DIDs)</td></tr>
+          <tr><td>Хранение</td><td>Dropbox, AWS S3</td><td>IPFS, Filecoin</td></tr>
+        </tbody>
+      </table>
 
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/P9nAUJ7X7O0" title="Web 3.0 Explained" frameborder="0" allowfullscreen loading="lazy"></iframe>
-</section>
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/P9nAUJ7X7O0" title="Web 3.0 Explained" frameborder="0" allowfullscreen loading="lazy"></iframe>
+    </section>
 
-<section id="sec4">
-  <h2>4. Суть Semantic Web</h2>
-  <p>Главная идея: превратить интернет в <strong>глобальную базу знаний</strong>. Вместо:</p>
-  <pre>&lt;p&gt;Москва — столица России.&lt;/p&gt;</pre>
-  <p>— использовать машиночитаемую структуру:</p>
-  <pre>&lt;http://dbpedia.org/resource/Moscow&gt; 
-  &lt;http://www.wikidata.org/prop/direct/P36&gt; 
-  &lt;http://dbpedia.org/resource/Russia&gt; .</pre>
+    <section id="sec4">
+      <h2>4. Суть Semantic Web</h2>
+      <p>Главная идея: превратить интернет в <strong>глобальную базу знаний</strong>. Вместо:</p>
+      <pre>&lt;p&gt;Москва — столица России.&lt;/p&gt;</pre>
+      <p>— использовать машиночитаемую структуру:</p>
+      <pre>&lt;http://dbpedia.org/resource/Moscow&gt; 
+&lt;http://www.wikidata.org/prop/direct/P36&gt; 
+&lt;http://dbpedia.org/resource/Russia&gt; .</pre>
 
-  <p>Это триплет в формате <strong>RDF</strong>: субъект–предикат–объект.</p>
-</section>
+      <p>Это триплет в формате <strong>RDF</strong>: субъект–предикат–объект.</p>
+    </section>
 
-<section id="sec5">
-  <h2>5. Технологические компоненты</h2>
-  <ul>
-    <li><strong>URI</strong> — уникальный идентификатор (например, <code>https://w3id.org/example#Person</code>)</li>
-    <li><strong>RDF</strong> — модель данных (XML, Turtle, JSON-LD)</li>
-    <li><strong>OWL</strong> — язык онтологий с логикой («если X — врач, то X — человек»)</li>
-    <li><strong>SPARQL</strong> — SQL для знаний:
-      <pre>SELECT ?city WHERE { ?city wdt:P36 wd:Q159 }</pre>
-      — найдёт все столицы России в Wikidata.</li>
-    <li><strong>Schema.org / JSON-LD</strong> — микроразметка для поисковиков</li>
-  </ul>
+    <section id="sec5">
+      <h2>5. Технологические компоненты</h2>
+      <ul>
+        <li><strong>URI</strong> — уникальный идентификатор (например, <code>https://w3id.org/example#Person</code>)</li>
+        <li><strong>RDF</strong> — модель данных (XML, Turtle, JSON-LD)</li>
+        <li><strong>OWL</strong> — язык онтологий с логикой («если X — врач, то X — человек»)</li>
+        <li><strong>SPARQL</strong> — SQL для знаний:
+          <pre>SELECT ?city WHERE { ?city wdt:P36 wd:Q159 }</pre>
+          — найдёт все столицы России в Wikidata.</li>
+        <li><strong>Schema.org / JSON-LD</strong> — микроразметка для поисковиков</li>
+      </ul>
 
-  <figure>
-    <img src="https://www.w3.org/2001/10/09-rdf-architecture.png" alt="Архитектура RDF по W3C" loading="lazy">
-    <figcaption>Архитектура RDF (Источник: W3C)</figcaption>
-  </figure>
-</section>
+      <figure>
+        <img src="https://www.w3.org/2001/10/09-rdf-architecture.png" alt="Архитектура RDF по W3C" loading="lazy">
+        <figcaption>Архитектура RDF (Источник: W3C)</figcaption>
+      </figure>
+    </section>
 
-<section id="sec6">
-  <h2>6. Практические применения</h2>
-  <h3>6.1 Поисковые системы</h3>
-  <p>Google и Yandex используют Schema.org для <strong>Knowledge Panels</strong>. Например, запрос «Альберт Эйнштейн» покажет не просто ссылки, а структурированную карточку с датами, работами, связями.</p>
+    <section id="sec6">
+      <h2>6. Практические применения</h2>
+      <h3>6.1 Поисковые системы</h3>
+      <p>Google и Yandex используют Schema.org для <strong>Knowledge Panels</strong>. Например, запрос «Альберт Эйнштейн» покажет не просто ссылки, а структурированную карточку с датами, работами, связями.</p>
 
-  <h3>6.2 Wikidata и DBpedia</h3>
-  <p>Wikidata содержит более <strong>10 млрд триплетов</strong>. Это основа для Siri, Alexa, Wolfram Alpha.</p>
+      <h3>6.2 Wikidata и DBpedia</h3>
+      <p>Wikidata содержит более <strong>10 млрд триплетов</strong>. Это основа для Siri, Alexa, Wolfram Alpha.</p>
 
-  <h3>6.3 Корпоративные системы</h3>
-  <p>IBM Watson использует онтологии для анализа медицинских статей и поддержки врачей.</p>
+      <h3>6.3 Корпоративные системы</h3>
+      <p>IBM Watson использует онтологии для анализа медицинских статей и поддержки врачей.</p>
 
-  <audio controls>
-    <source src="https://www.w3.org/2004/01/pp-impl/32155/audio/timbl-keynote-semantic-web.mp3" type="audio/mpeg">
-    Выступление Тима Бернерса-Ли о Semantic Web (2004)
-  </audio>
-</section>
+      <audio controls>
+        <source src="https://www.w3.org/Talks/2004/0804-Paula-Graciano/timbl-keynote-semantic-web.mp3" type="audio/mpeg">
+        Выступление Тима Бернерса-Ли о Semantic Web (2004)
+      </audio>
+    </section>
 
-<section id="sec7">
-  <h2>7. Semantic Web и безопасность</h2>
-  <p>Семантика позволяет точно определять:</p>
-  <ul>
-    <li>Кто имеет доступ к данным?</li>
-    <li>Какие данные можно комбинировать?</li>
-    <li>Какие выводы разрешены?</li>
-  </ul>
+    <section id="sec7">
+      <h2>7. Semantic Web и безопасность</h2>
+      <p>Семантика позволяет точно определять:</p>
+      <ul>
+        <li>Кто имеет доступ к данным?</li>
+        <li>Какие данные можно комбинировать?</li>
+        <li>Какие выводы разрешены?</li>
+      </ul>
 
-  <p>В связке с технологиями Web 3.0:</p>
-  <ul>
-    <li><strong>DIDs</strong> — децентрализованная идентификация</li>
-    <li><strong>Zero-Knowledge Proofs</strong> — подтверждение без раскрытия данных</li>
-    <li><strong>IPFS</strong> — шифрованное распределённое хранение</li>
-  </ul>
+      <p>В связке с технологиями Web 3.0:</p>
+      <ul>
+        <li><strong>DIDs</strong> — децентрализованная идентификация</li>
+        <li><strong>Zero-Knowledge Proofs</strong> — подтверждение без раскрытия данных</li>
+        <li><strong>IPFS</strong> — шифрованное распределённое хранение</li>
+      </ul>
 
-  <p>Это создаёт основу для <strong>приватности по замыслу</strong>, а не как опцию.</p>
-</section>
+      <p>Это создаёт основу для <strong>приватности по замыслу</strong>, а не как опцию.</p>
+    </section>
 
-<section id="sec8">
-  <h2>8. Проблемы и критика</h2>
-  <p>Несмотря на потенциал, Semantic Web сталкивается с трудностями:</p>
-  <ul>
-    <li><strong>Сложность создания онтологий</strong> — требует экспертов</li>
-    <li><strong>Масштабируемость</strong> — миллиарды триплетов требуют новых СУБД</li>
-    <li><strong>Конкуренция с LLM</strong> — большие языковые модели (вроде GPT) «понимают» текст без явной семантики</li>
-  </ul>
+    <section id="sec8">
+      <h2>8. Проблемы и критика</h2>
+      <p>Несмотря на потенциал, Semantic Web сталкивается с трудностями:</p>
+      <ul>
+        <li><strong>Сложность создания онтологий</strong> — требует экспертов</li>
+        <li><strong>Масштабируемость</strong> — миллиарды триплетов требуют новых СУБД</li>
+        <li><strong>Конкуренция с LLM</strong> — большие языковые модели (вроде GPT) «понимают» текст без явной семантики</li>
+      </ul>
 
-  <p>Однако, как отмечает Бернерс-Ли, LLM — это статистика, а Semantic Web — логика. Они дополняют друг друга.</p>
-</section>
+      <p>Однако, как отмечает Бернерс-Ли, LLM — это статистика, а Semantic Web — логика. Они дополняют друг друга.</p>
+    </section>
 
-<section id="sec9">
-  <h2>9. Будущее: ИИ vs онтологии?</h2>
-  <p>Новые гибридные подходы:</p>
-  <ul>
-    <li>Извлечение RDF-триплетов из текста с помощью ИИ</li>
-    <li>Проверка выводов LLM через онтологические правила</li>
-    <li>Создание «знаниевых графов» на основе векторных эмбеддингов</li>
-  </ul>
+    <section id="sec9">
+      <h2>9. Будущее: ИИ vs онтологии?</h2>
+      <p>Новые гибридные подходы:</p>
+      <ul>
+        <li>Извлечение RDF-триплетов из текста с помощью ИИ</li>
+        <li>Проверка выводов LLM через онтологические правила</li>
+        <li>Создание «знаниевых графов» на основе векторных эмбеддингов</li>
+      </ul>
 
-  <p>Проекты вроде <strong>Google’s Knowledge Graph</strong> и <strong>Amazon’s Product Graph</strong> уже используют оба подхода.</p>
-</section>
+      <p>Проекты вроде <strong>Google’s Knowledge Graph</strong> и <strong>Amazon’s Product Graph</strong> уже используют оба подхода.</p>
+    </section>
 
-<section id="conclusion">
-  <h2>Выводы</h2>
-  <p>Семантическая паутина — не устаревшая идея, а <strong>фундамент Web 3.0</strong>. Она позволяет:</p>
-  <ul>
-    <li>Автоматизировать обработку знаний</li>
-    <li>Обеспечить точный контроль доступа</li>
-    <li>Создавать интероперабельные децентрализованные системы</li>
-  </ul>
-  <p>Её полная реализация потребует времени, но уже сегодня RDF, OWL и Schema.org работают «под капотом» современного интернета — делая его умнее, безопаснее и справедливее.</p>
-</section>
+    <section id="conclusion">
+      <h2>Выводы</h2>
+      <p>Семантическая паутина — не устаревшая идея, а <strong>фундамент Web 3.0</strong>. Она позволяет:</p>
+      <ul>
+        <li>Автоматизировать обработку знаний</li>
+        <li>Обеспечить точный контроль доступа</li>
+        <li>Создавать интероперабельные децентрализованные системы</li>
+      </ul>
+      <p>Её полная реализация потребует времени, но уже сегодня RDF, OWL и Schema.org работают «под капотом» современного интернета — делая его умнее, безопаснее и справедливее.</p>
+    </section>
 
-<section id="references">
-  <h2>Источники и ссылки</h2>
-  <ul>
-    <li>Berners-Lee, T., Hendler, J., & Lassila, O. (2001). <a href="https://www.scientificamerican.com/article/the-semantic-web/">The Semantic Web</a>. Scientific American.</li>
-    <li>W3C. (2023). <a href="https://www.w3.org/TR/rdf12-concepts/">RDF 1.2 Concepts</a>.</li>
-    <li>Statista. (2025). <a href="https://www.statista.com/topics/12345/semantic-technologies-market/">Semantic Technologies Market Report</a>.</li>
-    <li>McKinsey. (2024). <a href="https://www.mckinsey.com/web3-value">The Economic Potential of Web3</a>.</li>
-    <li>ENISA. (2025). <a href="https://www.enisa.europa.eu/cybersecurity-threats-report-2025">Threat Landscape for Supply Chain Attacks</a>.</li>
-    <li>Wikidata. <a href="https://www.wikidata.org">https://www.wikidata.org</a></li>
-    <li>Schema.org. <a href="https://schema.org">https://schema.org</a></li>
-    <li>IPFS. <a href="https://ipfs.tech">https://ipfs.tech</a></li>
-    <li>W3C DID Specification. <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs)</a>.</li>
-  </ul>
-</section>
+    <section id="references">
+      <h2>Источники и ссылки</h2>
+      <ul>
+        <li>Berners-Lee, T., Hendler, J., & Lassila, O. (2001). <a href="https://www.scientificamerican.com/article/the-semantic-web/">The Semantic Web</a>. Scientific American.</li>
+        <li>W3C. (2023). <a href="https://www.w3.org/TR/rdf12-concepts/">RDF 1.2 Concepts</a>.</li>
+        <li>Statista. (2025). <a href="https://www.statista.com/topics/1005/semantic-technologies-market/">Semantic Technologies Market Report</a>.</li>
+        <li>McKinsey. (2024). <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-web3">The Economic Potential of Web3</a>.</li>
+        <li>ENISA. (2025). <a href="https://www.enisa.europa.eu/publications/threat-landscape-for-supply-chain-attacks">Threat Landscape for Supply Chain Attacks</a>.</li>
+        <li>Wikidata. <a href="https://www.wikidata.org">https://www.wikidata.org</a></li>
+        <li>Schema.org. <a href="https://schema.org">https://schema.org</a></li>
+        <li>IPFS. <a href="https://ipfs.tech">https://ipfs.tech</a></li>
+        <li>W3C DID Specification. <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DIDs)</a>.</li>
+      </ul>
+    </section>
 
-</main>
+  </main>
+</div>
 
 <footer class="footer">
   <p>© 2025 Ставничук Н.С., МГТУ «СТАНКИН». Все права защищены.</p>
